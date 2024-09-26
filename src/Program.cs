@@ -1,10 +1,10 @@
-﻿/*
+/*
  * Authors:
  *   钟峰(Popeye Zhong) <zongsoft@gmail.com>
  *
  * The MIT License (MIT)
  * 
- * Copyright (C) 2015 Zongsoft Corporation <http://www.zongsoft.com>
+ * Copyright (C) 2015-2025 Zongsoft Corporation <http://www.zongsoft.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,14 +31,10 @@ namespace Zongsoft.Regular
 {
 	internal static class Program
 	{
-		/// <summary>
-		/// 应用程序的主入口点。
-		/// </summary>
 		[STAThread]
-		internal static void Main()
+		public static void Main()
 		{
-			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
+			ApplicationConfiguration.Initialize();
 			Application.Run(new MainForm());
 		}
 	}

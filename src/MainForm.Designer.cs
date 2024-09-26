@@ -54,663 +54,620 @@ namespace Zongsoft.Regular
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
+			components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-			this.mnuMain = new System.Windows.Forms.MenuStrip();
-			this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuFileNew = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuFileOpen = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-			this.mnuFileSave = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuFileSaveAs = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-			this.mnuFileExit = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuEditUndo = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-			this.mnuEditCut = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuEditCopy = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuEditPaste = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-			this.mnuEditSelectAll = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuTools = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuToolsOptions = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuHelpAbout = new System.Windows.Forms.ToolStripMenuItem();
-			this.tlsDefault = new System.Windows.Forms.ToolStrip();
-			this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.saveToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-			this.cutToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.copyToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-			this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.stsMain = new System.Windows.Forms.StatusStrip();
-			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.lblCaptureIndex = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.lblCaptureLength = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.lblCaptureValue = new System.Windows.Forms.ToolStripStatusLabel();
-			this.SplitContainer1 = new System.Windows.Forms.SplitContainer();
-			this.chkOptionsExplicitCapture = new System.Windows.Forms.CheckBox();
-			this.chkOptionsMultiline = new System.Windows.Forms.CheckBox();
-			this.chkOptionsSingleline = new System.Windows.Forms.CheckBox();
-			this.chkOptionsIgnorePatternWhitespace = new System.Windows.Forms.CheckBox();
-			this.chkOptionsIgnoreCase = new System.Windows.Forms.CheckBox();
-			this.txtPattern = new System.Windows.Forms.TextBox();
-			this.btnMatch = new System.Windows.Forms.Button();
-			this.lblPattern = new System.Windows.Forms.Label();
-			this.SplitContainer2 = new System.Windows.Forms.SplitContainer();
-			this.txtInput = new System.Windows.Forms.TextBox();
-			this.lblInput = new System.Windows.Forms.Label();
-			this.tvwResult = new System.Windows.Forms.TreeView();
-			this.lblResult = new System.Windows.Forms.Label();
-			this._toolTip = new System.Windows.Forms.ToolTip(this.components);
-			this.mnuMain.SuspendLayout();
-			this.tlsDefault.SuspendLayout();
-			this.stsMain.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).BeginInit();
-			this.SplitContainer1.Panel1.SuspendLayout();
-			this.SplitContainer1.Panel2.SuspendLayout();
-			this.SplitContainer1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.SplitContainer2)).BeginInit();
-			this.SplitContainer2.Panel1.SuspendLayout();
-			this.SplitContainer2.Panel2.SuspendLayout();
-			this.SplitContainer2.SuspendLayout();
-			this.SuspendLayout();
+			mnuMain = new System.Windows.Forms.MenuStrip();
+			mnuFile = new System.Windows.Forms.ToolStripMenuItem();
+			mnuFileNew = new System.Windows.Forms.ToolStripMenuItem();
+			mnuFileOpen = new System.Windows.Forms.ToolStripMenuItem();
+			toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			mnuFileSave = new System.Windows.Forms.ToolStripMenuItem();
+			mnuFileSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+			toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+			mnuFileExit = new System.Windows.Forms.ToolStripMenuItem();
+			mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
+			mnuEditUndo = new System.Windows.Forms.ToolStripMenuItem();
+			toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+			mnuEditCut = new System.Windows.Forms.ToolStripMenuItem();
+			mnuEditCopy = new System.Windows.Forms.ToolStripMenuItem();
+			mnuEditPaste = new System.Windows.Forms.ToolStripMenuItem();
+			toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+			mnuEditSelectAll = new System.Windows.Forms.ToolStripMenuItem();
+			mnuTools = new System.Windows.Forms.ToolStripMenuItem();
+			mnuToolsOptions = new System.Windows.Forms.ToolStripMenuItem();
+			mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
+			mnuHelpAbout = new System.Windows.Forms.ToolStripMenuItem();
+			tlsDefault = new System.Windows.Forms.ToolStrip();
+			newToolStripButton = new System.Windows.Forms.ToolStripButton();
+			openToolStripButton = new System.Windows.Forms.ToolStripButton();
+			saveToolStripButton = new System.Windows.Forms.ToolStripButton();
+			toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+			cutToolStripButton = new System.Windows.Forms.ToolStripButton();
+			copyToolStripButton = new System.Windows.Forms.ToolStripButton();
+			pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
+			toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			helpToolStripButton = new System.Windows.Forms.ToolStripButton();
+			stsMain = new System.Windows.Forms.StatusStrip();
+			toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+			lblCaptureIndex = new System.Windows.Forms.ToolStripStatusLabel();
+			toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+			lblCaptureLength = new System.Windows.Forms.ToolStripStatusLabel();
+			toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
+			lblCaptureValue = new System.Windows.Forms.ToolStripStatusLabel();
+			SplitContainer1 = new System.Windows.Forms.SplitContainer();
+			chkOptionsExplicitCapture = new System.Windows.Forms.CheckBox();
+			chkOptionsMultiline = new System.Windows.Forms.CheckBox();
+			chkOptionsSingleline = new System.Windows.Forms.CheckBox();
+			chkOptionsIgnorePatternWhitespace = new System.Windows.Forms.CheckBox();
+			chkOptionsIgnoreCase = new System.Windows.Forms.CheckBox();
+			txtPattern = new System.Windows.Forms.TextBox();
+			btnMatch = new System.Windows.Forms.Button();
+			lblPattern = new System.Windows.Forms.Label();
+			SplitContainer2 = new System.Windows.Forms.SplitContainer();
+			txtInput = new System.Windows.Forms.TextBox();
+			lblInput = new System.Windows.Forms.Label();
+			tvwResult = new System.Windows.Forms.TreeView();
+			lblResult = new System.Windows.Forms.Label();
+			_toolTip = new System.Windows.Forms.ToolTip(components);
+			mnuMain.SuspendLayout();
+			tlsDefault.SuspendLayout();
+			stsMain.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)SplitContainer1).BeginInit();
+			SplitContainer1.Panel1.SuspendLayout();
+			SplitContainer1.Panel2.SuspendLayout();
+			SplitContainer1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)SplitContainer2).BeginInit();
+			SplitContainer2.Panel1.SuspendLayout();
+			SplitContainer2.Panel2.SuspendLayout();
+			SplitContainer2.SuspendLayout();
+			SuspendLayout();
 			// 
 			// mnuMain
 			// 
-			this.mnuMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuFile,
-            this.mnuEdit,
-            this.mnuTools,
-            this.mnuHelp});
-			this.mnuMain.Location = new System.Drawing.Point(0, 0);
-			this.mnuMain.Name = "mnuMain";
-			this.mnuMain.Size = new System.Drawing.Size(640, 24);
-			this.mnuMain.TabIndex = 0;
-			this.mnuMain.Text = "menuStrip1";
+			mnuMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { mnuFile, mnuEdit, mnuTools, mnuHelp });
+			mnuMain.Location = new System.Drawing.Point(0, 0);
+			mnuMain.Name = "mnuMain";
+			mnuMain.Size = new System.Drawing.Size(964, 25);
+			mnuMain.TabIndex = 0;
+			mnuMain.Text = "menuStrip1";
 			// 
 			// mnuFile
 			// 
-			this.mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuFileNew,
-            this.mnuFileOpen,
-            this.toolStripSeparator2,
-            this.mnuFileSave,
-            this.mnuFileSaveAs,
-            this.toolStripSeparator3,
-            this.mnuFileExit});
-			this.mnuFile.Name = "mnuFile";
-			this.mnuFile.Size = new System.Drawing.Size(57, 20);
-			this.mnuFile.Text = "文件(&F)";
+			mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { mnuFileNew, mnuFileOpen, toolStripSeparator2, mnuFileSave, mnuFileSaveAs, toolStripSeparator3, mnuFileExit });
+			mnuFile.Name = "mnuFile";
+			mnuFile.Size = new System.Drawing.Size(58, 21);
+			mnuFile.Text = "文件(&F)";
 			// 
 			// mnuFileNew
 			// 
-			this.mnuFileNew.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileNew.Image")));
-			this.mnuFileNew.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuFileNew.Name = "mnuFileNew";
-			this.mnuFileNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-			this.mnuFileNew.Size = new System.Drawing.Size(162, 22);
-			this.mnuFileNew.Text = "新建(&N)";
-			this.mnuFileNew.Click += new System.EventHandler(this.mnuFileNew_Click);
+			mnuFileNew.Image = (System.Drawing.Image)resources.GetObject("mnuFileNew.Image");
+			mnuFileNew.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuFileNew.Name = "mnuFileNew";
+			mnuFileNew.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N;
+			mnuFileNew.Size = new System.Drawing.Size(165, 22);
+			mnuFileNew.Text = "新建(&N)";
+			mnuFileNew.Click += mnuFileNew_Click;
 			// 
 			// mnuFileOpen
 			// 
-			this.mnuFileOpen.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileOpen.Image")));
-			this.mnuFileOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuFileOpen.Name = "mnuFileOpen";
-			this.mnuFileOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-			this.mnuFileOpen.Size = new System.Drawing.Size(162, 22);
-			this.mnuFileOpen.Text = "打开(&O)";
-			this.mnuFileOpen.Click += new System.EventHandler(this.mnuFileOpen_Click);
+			mnuFileOpen.Image = (System.Drawing.Image)resources.GetObject("mnuFileOpen.Image");
+			mnuFileOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuFileOpen.Name = "mnuFileOpen";
+			mnuFileOpen.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O;
+			mnuFileOpen.Size = new System.Drawing.Size(165, 22);
+			mnuFileOpen.Text = "打开(&O)";
+			mnuFileOpen.Click += mnuFileOpen_Click;
 			// 
 			// toolStripSeparator2
 			// 
-			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(159, 6);
+			toolStripSeparator2.Name = "toolStripSeparator2";
+			toolStripSeparator2.Size = new System.Drawing.Size(162, 6);
 			// 
 			// mnuFileSave
 			// 
-			this.mnuFileSave.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileSave.Image")));
-			this.mnuFileSave.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuFileSave.Name = "mnuFileSave";
-			this.mnuFileSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-			this.mnuFileSave.Size = new System.Drawing.Size(162, 22);
-			this.mnuFileSave.Text = "保存(&S)";
-			this.mnuFileSave.Click += new System.EventHandler(this.mnuFileSave_Click);
+			mnuFileSave.Image = (System.Drawing.Image)resources.GetObject("mnuFileSave.Image");
+			mnuFileSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuFileSave.Name = "mnuFileSave";
+			mnuFileSave.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S;
+			mnuFileSave.Size = new System.Drawing.Size(165, 22);
+			mnuFileSave.Text = "保存(&S)";
+			mnuFileSave.Click += mnuFileSave_Click;
 			// 
 			// mnuFileSaveAs
 			// 
-			this.mnuFileSaveAs.Name = "mnuFileSaveAs";
-			this.mnuFileSaveAs.Size = new System.Drawing.Size(162, 22);
-			this.mnuFileSaveAs.Text = "另存为(&A)";
-			this.mnuFileSaveAs.Click += new System.EventHandler(this.mnuFileSaveAs_Click);
+			mnuFileSaveAs.Name = "mnuFileSaveAs";
+			mnuFileSaveAs.Size = new System.Drawing.Size(165, 22);
+			mnuFileSaveAs.Text = "另存为(&A)";
+			mnuFileSaveAs.Click += mnuFileSaveAs_Click;
 			// 
 			// toolStripSeparator3
 			// 
-			this.toolStripSeparator3.Name = "toolStripSeparator3";
-			this.toolStripSeparator3.Size = new System.Drawing.Size(159, 6);
+			toolStripSeparator3.Name = "toolStripSeparator3";
+			toolStripSeparator3.Size = new System.Drawing.Size(162, 6);
 			// 
 			// mnuFileExit
 			// 
-			this.mnuFileExit.Name = "mnuFileExit";
-			this.mnuFileExit.Size = new System.Drawing.Size(162, 22);
-			this.mnuFileExit.Text = "退出(&X)";
-			this.mnuFileExit.Click += new System.EventHandler(this.mnuFileExit_Click);
+			mnuFileExit.Name = "mnuFileExit";
+			mnuFileExit.Size = new System.Drawing.Size(165, 22);
+			mnuFileExit.Text = "退出(&X)";
+			mnuFileExit.Click += mnuFileExit_Click;
 			// 
 			// mnuEdit
 			// 
-			this.mnuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuEditUndo,
-            this.toolStripSeparator5,
-            this.mnuEditCut,
-            this.mnuEditCopy,
-            this.mnuEditPaste,
-            this.toolStripSeparator6,
-            this.mnuEditSelectAll});
-			this.mnuEdit.Name = "mnuEdit";
-			this.mnuEdit.Size = new System.Drawing.Size(58, 20);
-			this.mnuEdit.Text = "编辑(&E)";
+			mnuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { mnuEditUndo, toolStripSeparator5, mnuEditCut, mnuEditCopy, mnuEditPaste, toolStripSeparator6, mnuEditSelectAll });
+			mnuEdit.Name = "mnuEdit";
+			mnuEdit.Size = new System.Drawing.Size(59, 21);
+			mnuEdit.Text = "编辑(&E)";
 			// 
 			// mnuEditUndo
 			// 
-			this.mnuEditUndo.Name = "mnuEditUndo";
-			this.mnuEditUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-			this.mnuEditUndo.Size = new System.Drawing.Size(182, 22);
-			this.mnuEditUndo.Text = "撤销(&U)";
-			this.mnuEditUndo.Click += new System.EventHandler(this.mnuEditUndo_Click);
+			mnuEditUndo.Name = "mnuEditUndo";
+			mnuEditUndo.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z;
+			mnuEditUndo.Size = new System.Drawing.Size(185, 22);
+			mnuEditUndo.Text = "撤销(&U)";
+			mnuEditUndo.Click += mnuEditUndo_Click;
 			// 
 			// toolStripSeparator5
 			// 
-			this.toolStripSeparator5.Name = "toolStripSeparator5";
-			this.toolStripSeparator5.Size = new System.Drawing.Size(179, 6);
+			toolStripSeparator5.Name = "toolStripSeparator5";
+			toolStripSeparator5.Size = new System.Drawing.Size(182, 6);
 			// 
 			// mnuEditCut
 			// 
-			this.mnuEditCut.Image = ((System.Drawing.Image)(resources.GetObject("mnuEditCut.Image")));
-			this.mnuEditCut.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuEditCut.Name = "mnuEditCut";
-			this.mnuEditCut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-			this.mnuEditCut.Size = new System.Drawing.Size(182, 22);
-			this.mnuEditCut.Text = "剪切(&T)";
-			this.mnuEditCut.Click += new System.EventHandler(this.mnuEditCut_Click);
+			mnuEditCut.Image = (System.Drawing.Image)resources.GetObject("mnuEditCut.Image");
+			mnuEditCut.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuEditCut.Name = "mnuEditCut";
+			mnuEditCut.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X;
+			mnuEditCut.Size = new System.Drawing.Size(185, 22);
+			mnuEditCut.Text = "剪切(&T)";
+			mnuEditCut.Click += mnuEditCut_Click;
 			// 
 			// mnuEditCopy
 			// 
-			this.mnuEditCopy.Image = ((System.Drawing.Image)(resources.GetObject("mnuEditCopy.Image")));
-			this.mnuEditCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuEditCopy.Name = "mnuEditCopy";
-			this.mnuEditCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-			this.mnuEditCopy.Size = new System.Drawing.Size(182, 22);
-			this.mnuEditCopy.Text = "复制(&C)";
-			this.mnuEditCopy.Click += new System.EventHandler(this.mnuEditCopy_Click);
+			mnuEditCopy.Image = (System.Drawing.Image)resources.GetObject("mnuEditCopy.Image");
+			mnuEditCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuEditCopy.Name = "mnuEditCopy";
+			mnuEditCopy.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C;
+			mnuEditCopy.Size = new System.Drawing.Size(185, 22);
+			mnuEditCopy.Text = "复制(&C)";
+			mnuEditCopy.Click += mnuEditCopy_Click;
 			// 
 			// mnuEditPaste
 			// 
-			this.mnuEditPaste.Image = ((System.Drawing.Image)(resources.GetObject("mnuEditPaste.Image")));
-			this.mnuEditPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.mnuEditPaste.Name = "mnuEditPaste";
-			this.mnuEditPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-			this.mnuEditPaste.Size = new System.Drawing.Size(182, 22);
-			this.mnuEditPaste.Text = "粘贴(&P)";
-			this.mnuEditPaste.Click += new System.EventHandler(this.mnuEditPaste_Click);
+			mnuEditPaste.Image = (System.Drawing.Image)resources.GetObject("mnuEditPaste.Image");
+			mnuEditPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
+			mnuEditPaste.Name = "mnuEditPaste";
+			mnuEditPaste.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V;
+			mnuEditPaste.Size = new System.Drawing.Size(185, 22);
+			mnuEditPaste.Text = "粘贴(&P)";
+			mnuEditPaste.Click += mnuEditPaste_Click;
 			// 
 			// toolStripSeparator6
 			// 
-			this.toolStripSeparator6.Name = "toolStripSeparator6";
-			this.toolStripSeparator6.Size = new System.Drawing.Size(179, 6);
+			toolStripSeparator6.Name = "toolStripSeparator6";
+			toolStripSeparator6.Size = new System.Drawing.Size(182, 6);
 			// 
 			// mnuEditSelectAll
 			// 
-			this.mnuEditSelectAll.Name = "mnuEditSelectAll";
-			this.mnuEditSelectAll.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-			this.mnuEditSelectAll.Size = new System.Drawing.Size(182, 22);
-			this.mnuEditSelectAll.Text = "选取所有(&A)";
-			this.mnuEditSelectAll.Click += new System.EventHandler(this.mnuEditSelectAll_Click);
+			mnuEditSelectAll.Name = "mnuEditSelectAll";
+			mnuEditSelectAll.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A;
+			mnuEditSelectAll.Size = new System.Drawing.Size(185, 22);
+			mnuEditSelectAll.Text = "选取所有(&A)";
+			mnuEditSelectAll.Click += mnuEditSelectAll_Click;
 			// 
 			// mnuTools
 			// 
-			this.mnuTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuToolsOptions});
-			this.mnuTools.Name = "mnuTools";
-			this.mnuTools.Size = new System.Drawing.Size(58, 20);
-			this.mnuTools.Text = "工具(&T)";
+			mnuTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { mnuToolsOptions });
+			mnuTools.Name = "mnuTools";
+			mnuTools.Size = new System.Drawing.Size(59, 21);
+			mnuTools.Text = "工具(&T)";
 			// 
 			// mnuToolsOptions
 			// 
-			this.mnuToolsOptions.Name = "mnuToolsOptions";
-			this.mnuToolsOptions.Size = new System.Drawing.Size(116, 22);
-			this.mnuToolsOptions.Text = "选项(&O)";
-			this.mnuToolsOptions.Click += new System.EventHandler(this.mnuToolsOptions_Click);
+			mnuToolsOptions.Name = "mnuToolsOptions";
+			mnuToolsOptions.Size = new System.Drawing.Size(118, 22);
+			mnuToolsOptions.Text = "选项(&O)";
+			mnuToolsOptions.Click += mnuToolsOptions_Click;
 			// 
 			// mnuHelp
 			// 
-			this.mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuHelpAbout});
-			this.mnuHelp.Name = "mnuHelp";
-			this.mnuHelp.Size = new System.Drawing.Size(60, 20);
-			this.mnuHelp.Text = "帮助(&H)";
+			mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { mnuHelpAbout });
+			mnuHelp.Name = "mnuHelp";
+			mnuHelp.Size = new System.Drawing.Size(61, 21);
+			mnuHelp.Text = "帮助(&H)";
 			// 
 			// mnuHelpAbout
 			// 
-			this.mnuHelpAbout.Name = "mnuHelpAbout";
-			this.mnuHelpAbout.Size = new System.Drawing.Size(123, 22);
-			this.mnuHelpAbout.Text = "关于(&A)...";
-			this.mnuHelpAbout.Click += new System.EventHandler(this.mnuHelpAbout_Click);
+			mnuHelpAbout.Name = "mnuHelpAbout";
+			mnuHelpAbout.Size = new System.Drawing.Size(125, 22);
+			mnuHelpAbout.Text = "关于(&A)...";
+			mnuHelpAbout.Click += mnuHelpAbout_Click;
 			// 
 			// tlsDefault
 			// 
-			this.tlsDefault.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newToolStripButton,
-            this.openToolStripButton,
-            this.saveToolStripButton,
-            this.toolStripSeparator,
-            this.cutToolStripButton,
-            this.copyToolStripButton,
-            this.pasteToolStripButton,
-            this.toolStripSeparator1,
-            this.helpToolStripButton});
-			this.tlsDefault.Location = new System.Drawing.Point(0, 28);
-			this.tlsDefault.Name = "tlsDefault";
-			this.tlsDefault.Size = new System.Drawing.Size(640, 25);
-			this.tlsDefault.TabIndex = 1;
-			this.tlsDefault.Text = "toolStrip1";
-			this.tlsDefault.Visible = false;
+			tlsDefault.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { newToolStripButton, openToolStripButton, saveToolStripButton, toolStripSeparator, cutToolStripButton, copyToolStripButton, pasteToolStripButton, toolStripSeparator1, helpToolStripButton });
+			tlsDefault.Location = new System.Drawing.Point(0, 28);
+			tlsDefault.Name = "tlsDefault";
+			tlsDefault.Size = new System.Drawing.Size(640, 25);
+			tlsDefault.TabIndex = 1;
+			tlsDefault.Text = "toolStrip1";
+			tlsDefault.Visible = false;
 			// 
 			// newToolStripButton
 			// 
-			this.newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
-			this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.newToolStripButton.Name = "newToolStripButton";
-			this.newToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.newToolStripButton.Text = "&New";
+			newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			newToolStripButton.Image = (System.Drawing.Image)resources.GetObject("newToolStripButton.Image");
+			newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			newToolStripButton.Name = "newToolStripButton";
+			newToolStripButton.Size = new System.Drawing.Size(23, 22);
+			newToolStripButton.Text = "&New";
 			// 
 			// openToolStripButton
 			// 
-			this.openToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.openToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripButton.Image")));
-			this.openToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.openToolStripButton.Name = "openToolStripButton";
-			this.openToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.openToolStripButton.Text = "&Open";
+			openToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			openToolStripButton.Image = (System.Drawing.Image)resources.GetObject("openToolStripButton.Image");
+			openToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			openToolStripButton.Name = "openToolStripButton";
+			openToolStripButton.Size = new System.Drawing.Size(23, 22);
+			openToolStripButton.Text = "&Open";
 			// 
 			// saveToolStripButton
 			// 
-			this.saveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
-			this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.saveToolStripButton.Name = "saveToolStripButton";
-			this.saveToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.saveToolStripButton.Text = "&Save";
+			saveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			saveToolStripButton.Image = (System.Drawing.Image)resources.GetObject("saveToolStripButton.Image");
+			saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			saveToolStripButton.Name = "saveToolStripButton";
+			saveToolStripButton.Size = new System.Drawing.Size(23, 22);
+			saveToolStripButton.Text = "&Save";
 			// 
 			// toolStripSeparator
 			// 
-			this.toolStripSeparator.Name = "toolStripSeparator";
-			this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
+			toolStripSeparator.Name = "toolStripSeparator";
+			toolStripSeparator.Size = new System.Drawing.Size(6, 25);
 			// 
 			// cutToolStripButton
 			// 
-			this.cutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.cutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripButton.Image")));
-			this.cutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.cutToolStripButton.Name = "cutToolStripButton";
-			this.cutToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.cutToolStripButton.Text = "C&ut";
+			cutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			cutToolStripButton.Image = (System.Drawing.Image)resources.GetObject("cutToolStripButton.Image");
+			cutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			cutToolStripButton.Name = "cutToolStripButton";
+			cutToolStripButton.Size = new System.Drawing.Size(23, 22);
+			cutToolStripButton.Text = "C&ut";
 			// 
 			// copyToolStripButton
 			// 
-			this.copyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.copyToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripButton.Image")));
-			this.copyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.copyToolStripButton.Name = "copyToolStripButton";
-			this.copyToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.copyToolStripButton.Text = "&Copy";
+			copyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			copyToolStripButton.Image = (System.Drawing.Image)resources.GetObject("copyToolStripButton.Image");
+			copyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			copyToolStripButton.Name = "copyToolStripButton";
+			copyToolStripButton.Size = new System.Drawing.Size(23, 22);
+			copyToolStripButton.Text = "&Copy";
 			// 
 			// pasteToolStripButton
 			// 
-			this.pasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.pasteToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripButton.Image")));
-			this.pasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.pasteToolStripButton.Name = "pasteToolStripButton";
-			this.pasteToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.pasteToolStripButton.Text = "&Paste";
+			pasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			pasteToolStripButton.Image = (System.Drawing.Image)resources.GetObject("pasteToolStripButton.Image");
+			pasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			pasteToolStripButton.Name = "pasteToolStripButton";
+			pasteToolStripButton.Size = new System.Drawing.Size(23, 22);
+			pasteToolStripButton.Text = "&Paste";
 			// 
 			// toolStripSeparator1
 			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			toolStripSeparator1.Name = "toolStripSeparator1";
+			toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
 			// 
 			// helpToolStripButton
 			// 
-			this.helpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.helpToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("helpToolStripButton.Image")));
-			this.helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.helpToolStripButton.Name = "helpToolStripButton";
-			this.helpToolStripButton.Size = new System.Drawing.Size(23, 22);
-			this.helpToolStripButton.Text = "He&lp";
+			helpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			helpToolStripButton.Image = (System.Drawing.Image)resources.GetObject("helpToolStripButton.Image");
+			helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			helpToolStripButton.Name = "helpToolStripButton";
+			helpToolStripButton.Size = new System.Drawing.Size(23, 22);
+			helpToolStripButton.Text = "He&lp";
 			// 
 			// stsMain
 			// 
-			this.stsMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.lblCaptureIndex,
-            this.toolStripStatusLabel3,
-            this.lblCaptureLength,
-            this.toolStripStatusLabel5,
-            this.lblCaptureValue});
-			this.stsMain.Location = new System.Drawing.Point(0, 451);
-			this.stsMain.Name = "stsMain";
-			this.stsMain.Size = new System.Drawing.Size(640, 29);
-			this.stsMain.TabIndex = 2;
-			this.stsMain.Text = "statusStrip1";
+			stsMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripStatusLabel1, lblCaptureIndex, toolStripStatusLabel3, lblCaptureLength, toolStripStatusLabel5, lblCaptureValue });
+			stsMain.Location = new System.Drawing.Point(0, 692);
+			stsMain.Name = "stsMain";
+			stsMain.Size = new System.Drawing.Size(964, 29);
+			stsMain.TabIndex = 2;
+			stsMain.Text = "statusStrip1";
 			// 
 			// toolStripStatusLabel1
 			// 
-			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-			this.toolStripStatusLabel1.Size = new System.Drawing.Size(31, 24);
-			this.toolStripStatusLabel1.Text = "位置";
+			toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			toolStripStatusLabel1.Size = new System.Drawing.Size(32, 24);
+			toolStripStatusLabel1.Text = "位置";
 			// 
 			// lblCaptureIndex
 			// 
-			this.lblCaptureIndex.AutoSize = false;
-			this.lblCaptureIndex.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
-			this.lblCaptureIndex.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
-			this.lblCaptureIndex.Name = "lblCaptureIndex";
-			this.lblCaptureIndex.Size = new System.Drawing.Size(60, 24);
-			this.lblCaptureIndex.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblCaptureIndex.AutoSize = false;
+			lblCaptureIndex.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom;
+			lblCaptureIndex.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
+			lblCaptureIndex.Name = "lblCaptureIndex";
+			lblCaptureIndex.Size = new System.Drawing.Size(60, 24);
+			lblCaptureIndex.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// toolStripStatusLabel3
 			// 
-			this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-			this.toolStripStatusLabel3.Size = new System.Drawing.Size(31, 24);
-			this.toolStripStatusLabel3.Text = "长度";
+			toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+			toolStripStatusLabel3.Size = new System.Drawing.Size(32, 24);
+			toolStripStatusLabel3.Text = "长度";
 			// 
 			// lblCaptureLength
 			// 
-			this.lblCaptureLength.AutoSize = false;
-			this.lblCaptureLength.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
-			this.lblCaptureLength.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
-			this.lblCaptureLength.Name = "lblCaptureLength";
-			this.lblCaptureLength.Size = new System.Drawing.Size(60, 24);
-			this.lblCaptureLength.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblCaptureLength.AutoSize = false;
+			lblCaptureLength.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom;
+			lblCaptureLength.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
+			lblCaptureLength.Name = "lblCaptureLength";
+			lblCaptureLength.Size = new System.Drawing.Size(60, 24);
+			lblCaptureLength.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// toolStripStatusLabel5
 			// 
-			this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-			this.toolStripStatusLabel5.Size = new System.Drawing.Size(43, 24);
-			this.toolStripStatusLabel5.Text = "文本值";
+			toolStripStatusLabel5.Name = "toolStripStatusLabel5";
+			toolStripStatusLabel5.Size = new System.Drawing.Size(44, 24);
+			toolStripStatusLabel5.Text = "文本值";
 			// 
 			// lblCaptureValue
 			// 
-			this.lblCaptureValue.AutoSize = false;
-			this.lblCaptureValue.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
-            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
-			this.lblCaptureValue.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
-			this.lblCaptureValue.Name = "lblCaptureValue";
-			this.lblCaptureValue.Size = new System.Drawing.Size(400, 24);
-			this.lblCaptureValue.Spring = true;
-			this.lblCaptureValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblCaptureValue.AutoSize = false;
+			lblCaptureValue.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom;
+			lblCaptureValue.BorderStyle = System.Windows.Forms.Border3DStyle.Etched;
+			lblCaptureValue.Name = "lblCaptureValue";
+			lblCaptureValue.Size = new System.Drawing.Size(721, 24);
+			lblCaptureValue.Spring = true;
+			lblCaptureValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// SplitContainer1
 			// 
-			this.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.SplitContainer1.Location = new System.Drawing.Point(0, 24);
-			this.SplitContainer1.Margin = new System.Windows.Forms.Padding(4);
-			this.SplitContainer1.Name = "SplitContainer1";
-			this.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+			SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+			SplitContainer1.Location = new System.Drawing.Point(0, 25);
+			SplitContainer1.Margin = new System.Windows.Forms.Padding(4);
+			SplitContainer1.Name = "SplitContainer1";
+			SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
 			// 
 			// SplitContainer1.Panel1
 			// 
-			this.SplitContainer1.Panel1.Controls.Add(this.chkOptionsExplicitCapture);
-			this.SplitContainer1.Panel1.Controls.Add(this.chkOptionsMultiline);
-			this.SplitContainer1.Panel1.Controls.Add(this.chkOptionsSingleline);
-			this.SplitContainer1.Panel1.Controls.Add(this.chkOptionsIgnorePatternWhitespace);
-			this.SplitContainer1.Panel1.Controls.Add(this.chkOptionsIgnoreCase);
-			this.SplitContainer1.Panel1.Controls.Add(this.txtPattern);
-			this.SplitContainer1.Panel1.Controls.Add(this.btnMatch);
-			this.SplitContainer1.Panel1.Controls.Add(this.lblPattern);
-			this.SplitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(4, 0, 136, 0);
+			SplitContainer1.Panel1.Controls.Add(chkOptionsExplicitCapture);
+			SplitContainer1.Panel1.Controls.Add(chkOptionsMultiline);
+			SplitContainer1.Panel1.Controls.Add(chkOptionsSingleline);
+			SplitContainer1.Panel1.Controls.Add(chkOptionsIgnorePatternWhitespace);
+			SplitContainer1.Panel1.Controls.Add(chkOptionsIgnoreCase);
+			SplitContainer1.Panel1.Controls.Add(txtPattern);
+			SplitContainer1.Panel1.Controls.Add(btnMatch);
+			SplitContainer1.Panel1.Controls.Add(lblPattern);
+			SplitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(4, 0, 136, 0);
 			// 
 			// SplitContainer1.Panel2
 			// 
-			this.SplitContainer1.Panel2.Controls.Add(this.SplitContainer2);
-			this.SplitContainer1.Size = new System.Drawing.Size(640, 427);
-			this.SplitContainer1.SplitterDistance = 214;
-			this.SplitContainer1.SplitterWidth = 5;
-			this.SplitContainer1.TabIndex = 3;
+			SplitContainer1.Panel2.Controls.Add(SplitContainer2);
+			SplitContainer1.Size = new System.Drawing.Size(964, 667);
+			SplitContainer1.SplitterDistance = 334;
+			SplitContainer1.SplitterWidth = 5;
+			SplitContainer1.TabIndex = 3;
 			// 
 			// chkOptionsExplicitCapture
 			// 
-			this.chkOptionsExplicitCapture.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.chkOptionsExplicitCapture.AutoEllipsis = true;
-			this.chkOptionsExplicitCapture.Font = new System.Drawing.Font("Arial", 10F);
-			this.chkOptionsExplicitCapture.Location = new System.Drawing.Point(512, 128);
-			this.chkOptionsExplicitCapture.Name = "chkOptionsExplicitCapture";
-			this.chkOptionsExplicitCapture.Size = new System.Drawing.Size(128, 24);
-			this.chkOptionsExplicitCapture.TabIndex = 8;
-			this.chkOptionsExplicitCapture.Text = "ExplicitCapture";
-			this._toolTip.SetToolTip(this.chkOptionsExplicitCapture, "仅捕获已被显式命名的组。指定有效的捕获仅为形式为 (?<name>...) 的显式命名或编号的组，这使未命名的圆括号可以充当非捕获组，并且不会使表达式的语法 (?" +
-        ":...)显得笨拙。");
-			this.chkOptionsExplicitCapture.UseVisualStyleBackColor = true;
+			chkOptionsExplicitCapture.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			chkOptionsExplicitCapture.AutoEllipsis = true;
+			chkOptionsExplicitCapture.Font = new System.Drawing.Font("Arial", 10F);
+			chkOptionsExplicitCapture.Location = new System.Drawing.Point(836, 128);
+			chkOptionsExplicitCapture.Name = "chkOptionsExplicitCapture";
+			chkOptionsExplicitCapture.Size = new System.Drawing.Size(128, 24);
+			chkOptionsExplicitCapture.TabIndex = 8;
+			chkOptionsExplicitCapture.Text = "ExplicitCapture";
+			_toolTip.SetToolTip(chkOptionsExplicitCapture, "仅捕获已被显式命名的组。指定有效的捕获仅为形式为 (?<name>...) 的显式命名或编号的组，这使未命名的圆括号可以充当非捕获组，并且不会使表达式的语法 (?:...)显得笨拙。");
+			chkOptionsExplicitCapture.UseVisualStyleBackColor = true;
 			// 
 			// chkOptionsMultiline
 			// 
-			this.chkOptionsMultiline.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.chkOptionsMultiline.AutoEllipsis = true;
-			this.chkOptionsMultiline.Font = new System.Drawing.Font("Arial", 10F);
-			this.chkOptionsMultiline.Location = new System.Drawing.Point(512, 104);
-			this.chkOptionsMultiline.Name = "chkOptionsMultiline";
-			this.chkOptionsMultiline.Size = new System.Drawing.Size(128, 24);
-			this.chkOptionsMultiline.TabIndex = 7;
-			this.chkOptionsMultiline.Text = "Multiline";
-			this._toolTip.SetToolTip(this.chkOptionsMultiline, "多行模式。更改 ^ 和 $ 的含义，使它们分别在任意一行的行首和行尾匹配，而不仅仅在整个字符串的开头和结尾匹配。");
-			this.chkOptionsMultiline.UseVisualStyleBackColor = true;
+			chkOptionsMultiline.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			chkOptionsMultiline.AutoEllipsis = true;
+			chkOptionsMultiline.Font = new System.Drawing.Font("Arial", 10F);
+			chkOptionsMultiline.Location = new System.Drawing.Point(836, 104);
+			chkOptionsMultiline.Name = "chkOptionsMultiline";
+			chkOptionsMultiline.Size = new System.Drawing.Size(128, 24);
+			chkOptionsMultiline.TabIndex = 7;
+			chkOptionsMultiline.Text = "Multiline";
+			_toolTip.SetToolTip(chkOptionsMultiline, "多行模式。更改 ^ 和 $ 的含义，使它们分别在任意一行的行首和行尾匹配，而不仅仅在整个字符串的开头和结尾匹配。");
+			chkOptionsMultiline.UseVisualStyleBackColor = true;
 			// 
 			// chkOptionsSingleline
 			// 
-			this.chkOptionsSingleline.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.chkOptionsSingleline.AutoEllipsis = true;
-			this.chkOptionsSingleline.Font = new System.Drawing.Font("Arial", 10F);
-			this.chkOptionsSingleline.Location = new System.Drawing.Point(512, 80);
-			this.chkOptionsSingleline.Name = "chkOptionsSingleline";
-			this.chkOptionsSingleline.Size = new System.Drawing.Size(128, 24);
-			this.chkOptionsSingleline.TabIndex = 6;
-			this.chkOptionsSingleline.Text = "Singleline";
-			this._toolTip.SetToolTip(this.chkOptionsSingleline, "指定单行模式。更改点 (.) 的含义，使它与每一个字符匹配（而不是与除 \\n 之外的每个字符匹配）。");
-			this.chkOptionsSingleline.UseVisualStyleBackColor = true;
+			chkOptionsSingleline.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			chkOptionsSingleline.AutoEllipsis = true;
+			chkOptionsSingleline.Font = new System.Drawing.Font("Arial", 10F);
+			chkOptionsSingleline.Location = new System.Drawing.Point(836, 80);
+			chkOptionsSingleline.Name = "chkOptionsSingleline";
+			chkOptionsSingleline.Size = new System.Drawing.Size(128, 24);
+			chkOptionsSingleline.TabIndex = 6;
+			chkOptionsSingleline.Text = "Singleline";
+			_toolTip.SetToolTip(chkOptionsSingleline, "指定单行模式。更改点 (.) 的含义，使它与每一个字符匹配（而不是与除 \\n 之外的每个字符匹配）。");
+			chkOptionsSingleline.UseVisualStyleBackColor = true;
 			// 
 			// chkOptionsIgnorePatternWhitespace
 			// 
-			this.chkOptionsIgnorePatternWhitespace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.chkOptionsIgnorePatternWhitespace.AutoEllipsis = true;
-			this.chkOptionsIgnorePatternWhitespace.Font = new System.Drawing.Font("Arial", 10F);
-			this.chkOptionsIgnorePatternWhitespace.Location = new System.Drawing.Point(512, 56);
-			this.chkOptionsIgnorePatternWhitespace.Name = "chkOptionsIgnorePatternWhitespace";
-			this.chkOptionsIgnorePatternWhitespace.Size = new System.Drawing.Size(128, 24);
-			this.chkOptionsIgnorePatternWhitespace.TabIndex = 5;
-			this.chkOptionsIgnorePatternWhitespace.Text = "IgnorePatternWhitespace";
-			this._toolTip.SetToolTip(this.chkOptionsIgnorePatternWhitespace, "消除模式中的非转义空白并启用由 # 标记的注释。但是不会影响或消除字符类中的空白。");
-			this.chkOptionsIgnorePatternWhitespace.UseVisualStyleBackColor = true;
+			chkOptionsIgnorePatternWhitespace.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			chkOptionsIgnorePatternWhitespace.AutoEllipsis = true;
+			chkOptionsIgnorePatternWhitespace.Font = new System.Drawing.Font("Arial", 10F);
+			chkOptionsIgnorePatternWhitespace.Location = new System.Drawing.Point(836, 56);
+			chkOptionsIgnorePatternWhitespace.Name = "chkOptionsIgnorePatternWhitespace";
+			chkOptionsIgnorePatternWhitespace.Size = new System.Drawing.Size(128, 24);
+			chkOptionsIgnorePatternWhitespace.TabIndex = 5;
+			chkOptionsIgnorePatternWhitespace.Text = "IgnorePatternWhitespace";
+			_toolTip.SetToolTip(chkOptionsIgnorePatternWhitespace, "消除模式中的非转义空白并启用由 # 标记的注释。但是不会影响或消除字符类中的空白。");
+			chkOptionsIgnorePatternWhitespace.UseVisualStyleBackColor = true;
 			// 
 			// chkOptionsIgnoreCase
 			// 
-			this.chkOptionsIgnoreCase.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.chkOptionsIgnoreCase.AutoEllipsis = true;
-			this.chkOptionsIgnoreCase.Font = new System.Drawing.Font("Arial", 10F);
-			this.chkOptionsIgnoreCase.Location = new System.Drawing.Point(512, 32);
-			this.chkOptionsIgnoreCase.Name = "chkOptionsIgnoreCase";
-			this.chkOptionsIgnoreCase.Size = new System.Drawing.Size(128, 24);
-			this.chkOptionsIgnoreCase.TabIndex = 4;
-			this.chkOptionsIgnoreCase.Text = "IgnoreCase";
-			this._toolTip.SetToolTip(this.chkOptionsIgnoreCase, "不区分大小写的匹配。");
-			this.chkOptionsIgnoreCase.UseVisualStyleBackColor = true;
+			chkOptionsIgnoreCase.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			chkOptionsIgnoreCase.AutoEllipsis = true;
+			chkOptionsIgnoreCase.Font = new System.Drawing.Font("Arial", 10F);
+			chkOptionsIgnoreCase.Location = new System.Drawing.Point(836, 32);
+			chkOptionsIgnoreCase.Name = "chkOptionsIgnoreCase";
+			chkOptionsIgnoreCase.Size = new System.Drawing.Size(128, 24);
+			chkOptionsIgnoreCase.TabIndex = 4;
+			chkOptionsIgnoreCase.Text = "IgnoreCase";
+			_toolTip.SetToolTip(chkOptionsIgnoreCase, "不区分大小写的匹配。");
+			chkOptionsIgnoreCase.UseVisualStyleBackColor = true;
 			// 
 			// txtPattern
 			// 
-			this.txtPattern.AcceptsTab = true;
-			this.txtPattern.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtPattern.HideSelection = false;
-			this.txtPattern.Location = new System.Drawing.Point(4, 30);
-			this.txtPattern.Margin = new System.Windows.Forms.Padding(4);
-			this.txtPattern.Multiline = true;
-			this.txtPattern.Name = "txtPattern";
-			this.txtPattern.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-			this.txtPattern.Size = new System.Drawing.Size(500, 184);
-			this.txtPattern.TabIndex = 1;
-			this.txtPattern.WordWrap = false;
+			txtPattern.AcceptsTab = true;
+			txtPattern.Dock = System.Windows.Forms.DockStyle.Fill;
+			txtPattern.HideSelection = false;
+			txtPattern.Location = new System.Drawing.Point(4, 30);
+			txtPattern.Margin = new System.Windows.Forms.Padding(4);
+			txtPattern.Multiline = true;
+			txtPattern.Name = "txtPattern";
+			txtPattern.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+			txtPattern.Size = new System.Drawing.Size(824, 304);
+			txtPattern.TabIndex = 1;
+			txtPattern.WordWrap = false;
 			// 
 			// btnMatch
 			// 
-			this.btnMatch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnMatch.Location = new System.Drawing.Point(514, 182);
-			this.btnMatch.Margin = new System.Windows.Forms.Padding(4);
-			this.btnMatch.Name = "btnMatch";
-			this.btnMatch.Size = new System.Drawing.Size(120, 32);
-			this.btnMatch.TabIndex = 2;
-			this.btnMatch.Text = "匹配(F5)";
-			this.btnMatch.UseVisualStyleBackColor = true;
-			this.btnMatch.Click += new System.EventHandler(this.btnMatch_Click);
+			btnMatch.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+			btnMatch.Location = new System.Drawing.Point(838, 302);
+			btnMatch.Margin = new System.Windows.Forms.Padding(4);
+			btnMatch.Name = "btnMatch";
+			btnMatch.Size = new System.Drawing.Size(120, 32);
+			btnMatch.TabIndex = 2;
+			btnMatch.Text = "匹配(F5)";
+			btnMatch.UseVisualStyleBackColor = true;
+			btnMatch.Click += btnMatch_Click;
 			// 
 			// lblPattern
 			// 
-			this.lblPattern.AutoEllipsis = true;
-			this.lblPattern.Dock = System.Windows.Forms.DockStyle.Top;
-			this.lblPattern.Location = new System.Drawing.Point(4, 0);
-			this.lblPattern.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.lblPattern.Name = "lblPattern";
-			this.lblPattern.Size = new System.Drawing.Size(500, 30);
-			this.lblPattern.TabIndex = 0;
-			this.lblPattern.Text = "正则表达式(&E)";
-			this.lblPattern.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblPattern.AutoEllipsis = true;
+			lblPattern.Dock = System.Windows.Forms.DockStyle.Top;
+			lblPattern.Location = new System.Drawing.Point(4, 0);
+			lblPattern.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			lblPattern.Name = "lblPattern";
+			lblPattern.Size = new System.Drawing.Size(824, 30);
+			lblPattern.TabIndex = 0;
+			lblPattern.Text = "正则表达式(&E)";
+			lblPattern.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// SplitContainer2
 			// 
-			this.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.SplitContainer2.Location = new System.Drawing.Point(0, 0);
-			this.SplitContainer2.Margin = new System.Windows.Forms.Padding(4);
-			this.SplitContainer2.Name = "SplitContainer2";
+			SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+			SplitContainer2.Location = new System.Drawing.Point(0, 0);
+			SplitContainer2.Margin = new System.Windows.Forms.Padding(4);
+			SplitContainer2.Name = "SplitContainer2";
 			// 
 			// SplitContainer2.Panel1
 			// 
-			this.SplitContainer2.Panel1.Controls.Add(this.txtInput);
-			this.SplitContainer2.Panel1.Controls.Add(this.lblInput);
-			this.SplitContainer2.Panel1.Padding = new System.Windows.Forms.Padding(4, 0, 0, 4);
+			SplitContainer2.Panel1.Controls.Add(txtInput);
+			SplitContainer2.Panel1.Controls.Add(lblInput);
+			SplitContainer2.Panel1.Padding = new System.Windows.Forms.Padding(4, 0, 0, 4);
 			// 
 			// SplitContainer2.Panel2
 			// 
-			this.SplitContainer2.Panel2.Controls.Add(this.tvwResult);
-			this.SplitContainer2.Panel2.Controls.Add(this.lblResult);
-			this.SplitContainer2.Panel2.Padding = new System.Windows.Forms.Padding(0, 0, 4, 4);
-			this.SplitContainer2.Size = new System.Drawing.Size(640, 208);
-			this.SplitContainer2.SplitterDistance = 295;
-			this.SplitContainer2.SplitterWidth = 5;
-			this.SplitContainer2.TabIndex = 0;
+			SplitContainer2.Panel2.Controls.Add(tvwResult);
+			SplitContainer2.Panel2.Controls.Add(lblResult);
+			SplitContainer2.Panel2.Padding = new System.Windows.Forms.Padding(0, 0, 4, 4);
+			SplitContainer2.Size = new System.Drawing.Size(964, 328);
+			SplitContainer2.SplitterDistance = 444;
+			SplitContainer2.SplitterWidth = 5;
+			SplitContainer2.TabIndex = 0;
 			// 
 			// txtInput
 			// 
-			this.txtInput.AcceptsTab = true;
-			this.txtInput.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtInput.HideSelection = false;
-			this.txtInput.Location = new System.Drawing.Point(4, 30);
-			this.txtInput.Margin = new System.Windows.Forms.Padding(4);
-			this.txtInput.Multiline = true;
-			this.txtInput.Name = "txtInput";
-			this.txtInput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-			this.txtInput.Size = new System.Drawing.Size(291, 174);
-			this.txtInput.TabIndex = 4;
-			this.txtInput.WordWrap = false;
+			txtInput.AcceptsTab = true;
+			txtInput.Dock = System.Windows.Forms.DockStyle.Fill;
+			txtInput.HideSelection = false;
+			txtInput.Location = new System.Drawing.Point(4, 30);
+			txtInput.Margin = new System.Windows.Forms.Padding(4);
+			txtInput.Multiline = true;
+			txtInput.Name = "txtInput";
+			txtInput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+			txtInput.Size = new System.Drawing.Size(440, 294);
+			txtInput.TabIndex = 4;
+			txtInput.WordWrap = false;
 			// 
 			// lblInput
 			// 
-			this.lblInput.AutoEllipsis = true;
-			this.lblInput.Dock = System.Windows.Forms.DockStyle.Top;
-			this.lblInput.Location = new System.Drawing.Point(4, 0);
-			this.lblInput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.lblInput.Name = "lblInput";
-			this.lblInput.Size = new System.Drawing.Size(291, 30);
-			this.lblInput.TabIndex = 3;
-			this.lblInput.Text = "输入文本(&T)";
-			this.lblInput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblInput.AutoEllipsis = true;
+			lblInput.Dock = System.Windows.Forms.DockStyle.Top;
+			lblInput.Location = new System.Drawing.Point(4, 0);
+			lblInput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			lblInput.Name = "lblInput";
+			lblInput.Size = new System.Drawing.Size(440, 30);
+			lblInput.TabIndex = 3;
+			lblInput.Text = "输入文本(&T)";
+			lblInput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// tvwResult
 			// 
-			this.tvwResult.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tvwResult.HideSelection = false;
-			this.tvwResult.Location = new System.Drawing.Point(0, 30);
-			this.tvwResult.Margin = new System.Windows.Forms.Padding(4);
-			this.tvwResult.Name = "tvwResult";
-			this.tvwResult.Size = new System.Drawing.Size(336, 174);
-			this.tvwResult.TabIndex = 5;
-			this.tvwResult.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvwResult_AfterSelect);
+			tvwResult.Dock = System.Windows.Forms.DockStyle.Fill;
+			tvwResult.HideSelection = false;
+			tvwResult.Location = new System.Drawing.Point(0, 30);
+			tvwResult.Margin = new System.Windows.Forms.Padding(4);
+			tvwResult.Name = "tvwResult";
+			tvwResult.Size = new System.Drawing.Size(511, 294);
+			tvwResult.TabIndex = 5;
+			tvwResult.AfterSelect += tvwResult_AfterSelect;
 			// 
 			// lblResult
 			// 
-			this.lblResult.AutoEllipsis = true;
-			this.lblResult.Dock = System.Windows.Forms.DockStyle.Top;
-			this.lblResult.Location = new System.Drawing.Point(0, 0);
-			this.lblResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.lblResult.Name = "lblResult";
-			this.lblResult.Size = new System.Drawing.Size(336, 30);
-			this.lblResult.TabIndex = 4;
-			this.lblResult.Text = "结果(&R)";
-			this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			lblResult.AutoEllipsis = true;
+			lblResult.Dock = System.Windows.Forms.DockStyle.Top;
+			lblResult.Location = new System.Drawing.Point(0, 0);
+			lblResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			lblResult.Name = "lblResult";
+			lblResult.Size = new System.Drawing.Size(511, 30);
+			lblResult.TabIndex = 4;
+			lblResult.Text = "结果(&R)";
+			lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// _toolTip
 			// 
-			this._toolTip.AutoPopDelay = 10000;
-			this._toolTip.InitialDelay = 500;
-			this._toolTip.IsBalloon = true;
-			this._toolTip.ReshowDelay = 100;
+			_toolTip.AutoPopDelay = 10000;
+			_toolTip.InitialDelay = 500;
+			_toolTip.IsBalloon = true;
+			_toolTip.ReshowDelay = 100;
 			// 
-			// FMain
+			// MainForm
 			// 
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-			this.ClientSize = new System.Drawing.Size(640, 480);
-			this.Controls.Add(this.SplitContainer1);
-			this.Controls.Add(this.stsMain);
-			this.Controls.Add(this.tlsDefault);
-			this.Controls.Add(this.mnuMain);
-			this.Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.HelpButton = true;
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.KeyPreview = true;
-			this.MainMenuStrip = this.mnuMain;
-			this.Margin = new System.Windows.Forms.Padding(4);
-			this.Name = "FMain";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "正则表达式测试器";
-			this.Load += new System.EventHandler(this.FMain_Load);
-			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FMain_KeyUp);
-			this.mnuMain.ResumeLayout(false);
-			this.mnuMain.PerformLayout();
-			this.tlsDefault.ResumeLayout(false);
-			this.tlsDefault.PerformLayout();
-			this.stsMain.ResumeLayout(false);
-			this.stsMain.PerformLayout();
-			this.SplitContainer1.Panel1.ResumeLayout(false);
-			this.SplitContainer1.Panel1.PerformLayout();
-			this.SplitContainer1.Panel2.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).EndInit();
-			this.SplitContainer1.ResumeLayout(false);
-			this.SplitContainer2.Panel1.ResumeLayout(false);
-			this.SplitContainer2.Panel1.PerformLayout();
-			this.SplitContainer2.Panel2.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.SplitContainer2)).EndInit();
-			this.SplitContainer2.ResumeLayout(false);
-			this.ResumeLayout(false);
-			this.PerformLayout();
-
+			AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+			ClientSize = new System.Drawing.Size(964, 721);
+			Controls.Add(SplitContainer1);
+			Controls.Add(stsMain);
+			Controls.Add(tlsDefault);
+			Controls.Add(mnuMain);
+			Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+			HelpButton = true;
+			Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+			KeyPreview = true;
+			MainMenuStrip = mnuMain;
+			Margin = new System.Windows.Forms.Padding(4);
+			Name = "MainForm";
+			StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			Text = "正则表达式测试器";
+			Load += FMain_Load;
+			KeyUp += FMain_KeyUp;
+			mnuMain.ResumeLayout(false);
+			mnuMain.PerformLayout();
+			tlsDefault.ResumeLayout(false);
+			tlsDefault.PerformLayout();
+			stsMain.ResumeLayout(false);
+			stsMain.PerformLayout();
+			SplitContainer1.Panel1.ResumeLayout(false);
+			SplitContainer1.Panel1.PerformLayout();
+			SplitContainer1.Panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)SplitContainer1).EndInit();
+			SplitContainer1.ResumeLayout(false);
+			SplitContainer2.Panel1.ResumeLayout(false);
+			SplitContainer2.Panel1.PerformLayout();
+			SplitContainer2.Panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)SplitContainer2).EndInit();
+			SplitContainer2.ResumeLayout(false);
+			ResumeLayout(false);
+			PerformLayout();
 		}
 
 		#endregion
